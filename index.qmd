@@ -6,4 +6,4 @@ title: "zhongshangxuan"
 This is a Quarto website.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-![](./images/The%20Herta.jpg){width="50%" fig-align="center"}
+![](./images/The%20Herta.jpg){fig-align="center"}
