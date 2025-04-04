@@ -112,7 +112,7 @@ Address:  525 Lincoln St., Apt 309, Boston, MA \\
 <!-- Internship 3 -->
 \begin{large}
   \begin{multicols}{2}
-    \parbox{1.4\linewidth}{\bf Ernst & Young (China) Advisory Co., Ltd.}
+    \parbox{1.4\linewidth}{\bf Ernst \& Young (China) Advisory Co., Ltd.}
     \begin{flushright}Jun. 2022 - Jul. 2022\end{flushright}
   \end{multicols}
   \vspace{-0.17cm}
