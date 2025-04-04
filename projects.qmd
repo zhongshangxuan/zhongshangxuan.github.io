@@ -10,9 +10,12 @@ format:
 ---
 
 ## Business Running Case: Evaluating Personal Job Market Prospects in 2024 
-(A Data-Driven Career Analysis Using Lightcast, GitHub, and Quarto Pages)
+(A Data-Driven Career Analysis Using Lightcast, GitHub, and Quarto Pages)<br>
+
 ### **Topic**: Salary & Compensation Trends
+
 **Focus on**
+
 * How do salaries differ across AI vs. non-AI careers?
 * What regions offer the highest-paying jobs in AI-related and traditional careers?
 * Are remote jobs better paying than in-office roles?

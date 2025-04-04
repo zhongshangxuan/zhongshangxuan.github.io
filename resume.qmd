@@ -168,8 +168,9 @@ Address:  525 Lincoln St., Apt 309, Boston, MA \\
   \vspace{3pt}
   \hrule
 \end{large}
-**Technical Skills**: Microsoft Office, Python, Java, SQL, C, R
-**Language Skills**: Mandarin, English, Japenese (High to low proficiency)
+* **Technical Skills**: Microsoft Office, Python, Java, SQL, C, R
+
+* **Language Skills**: Mandarin, English, Japenese (High to low proficiency)
 
 <!-- Self-Evaluation -->
 \begin{large}{\bf Self-Evaluation}

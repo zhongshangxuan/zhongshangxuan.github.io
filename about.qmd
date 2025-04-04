@@ -10,13 +10,13 @@ format:
 ---
 
 ## Shangxuan Zhong
-<hr style="height:3px; border:none">
+<hr style="height:5px; border:none">
 
 Phone: +86-17740940442 &emsp;&emsp; +1-(617)903-2034 <br>
 Email: zhongsx@bu.edu (school) &emsp;&emsp; zhongshangxuan@gmail.com (personal) <br>
 
 ## Education
-<hr style="height:3px; border:none">
+<hr style="height:5px; border:none">
 
 **University of Toronto**  (September,2020 - June,2024)<br>
 **Bachelor of Mathematics, Statistics, Computer Science**<br>
@@ -27,7 +27,7 @@ Email: zhongsx@bu.edu (school) &emsp;&emsp; zhongshangxuan@gmail.com (personal) 
 **Relevant Courses**: Business Analytics, Operations Management, Financial Concepts, Decision Making, Enterprise Risk Analytics, Marketing Analytics, Database Management, Big Data Applications, Web Design 
 
 ## Internship Experience
-<hr style="height:3px; border:none">
+<hr style="height:5px; border:none">
 
 **Xin'an Chemical Group Co., Ltd.** (June,2021 - July,2021)<br>
 **Title: Project Manager Assistant**<br>
@@ -62,20 +62,20 @@ Email: zhongsx@bu.edu (school) &emsp;&emsp; zhongshangxuan@gmail.com (personal) 
 * Learned about building data warehouses, collecting and organizing data, and providing data models to support departmental queries and development needs.
 
 ## Publications
-<hr style="height:3px; border:none">
+<hr style="height:5px; border:none">
 
 **Paper: Exploring Correlations Between Economic Indicators with Natural and Societal Factors Based on Linear Regression Model** (Published January,2024)
 
 **Description**: Utilized "Global Country Information Dataset 2023" to address the limitations of single-factor studies on economic development drivers. Employed Pearson correlation coefficients to screen key variables (e.g., land area, military size, carbon emissions) and constructed a multi-factor collaborative impact analysis framework using OLS and FMOLS linear regression models. Quantified the integrated effects of natural and social factors on national economic development and validated the model's predictive performance using machine learning training-test set methods. Published during studies at the University of Toronto, providing a data-driven reference for macroeconomic policy-making.
 
 ## Skills
-<hr style="height:3px; border:none">
+<hr style="height:5px; border:none">
 
-**Technical Skills**: Microsoft Office, Python, Java, SQL, C, R
+**Technical Skills**: Microsoft Office, Python, Java, SQL, C, R <br>
 **Language Skills**: Mandarin, English, Japenese (High to low proficiency)
 
 ## Self-Evaluation
-<hr style="height:3px; border:none">
+<hr style="height:5px; border:none">
 
 * Highly motivated with a strong sense of responsibility and attention to detail.
 * Excellent analytical skills and logical thinking, proficient in office software.
