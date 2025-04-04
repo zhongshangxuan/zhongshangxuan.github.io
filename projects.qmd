@@ -29,9 +29,7 @@ Through this research, we anticipate identifying key patterns in data science sa
 * A widening salary gap between regions due to remote work policies and cost-of-living differences.
 * Industry-specific salary trends, where certain sectors may offer higher compensation based on their reliance on data-driven insights.
 
-**Repository**: [GitHub](https://github.com/CYXNBNBNB/ad688-employability-sp25A1-group6)
-
-<pre>                  </pre>
+**Repository**: [GitHub](https://github.com/CYXNBNBNB/ad688-employability-sp25A1-group6) <br>
 
 **Website**: [Visit Website](https://cyxnbnbnb.github.io/ad688-employability-sp25A1-group6/)
 
