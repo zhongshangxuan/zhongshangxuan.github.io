@@ -1,0 +1,413 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  16,
+]{article}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage[]{libertine}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[top=10mm,left=15mm,right=15mm,bottom=5mm,heightrounded]{geometry}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+\usepackage{multicol}
+\usepackage{lipsum}
+\usepackage{hyperref}
+\usepackage{libertine}
+\pagestyle{empty}
+\setlength{\multicolsep}{2pt plus 1.0pt minus 0.75pt}% 50% of original values
+\setlength{\columnsep}{3em}
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+
+\usepackage{bookmark}
+
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\author{}
+\date{}
+
+\begin{document}
+
+
+\begin{huge}\begin{center}{\bf Shangxuan Zhong}\end{center}\end{huge}
+
+\begin{center}Email: zhongsx@bu.edu , zhongshangxuan@gmail.com \\
+Phone: +1 6179032034 , +86 17740940442 \\
+Address:  525 Lincoln St., Apt 309, Boston, MA \\
+\end{center}
+\vspace{15pt}
+
+\begin{large}
+  {\bf Education}
+  \vspace{3pt}
+  \hrule
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf University of Toronto}\end{flushleft}
+    \begin{flushright}Sep. 2020 - Jun. 2024\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}Bachelor of Mathematics, Statistics, Computer Science\end{flushleft}
+  \end{multicols}
+  \vspace{-0.20cm}
+\end{large}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Relevant Courses}: Linear Algebra, Advanced Algebra, Ordinary
+  Differential Equations, Probability Theory, Partial Differential
+  Equation, Advanced Calculus, Software Design, Financial Principles,
+  Actuarial Science, Complex Variables, Computer Organization, Time
+  Series Analysis, Machine Learning, Big Data Analytics
+\end{itemize}
+
+\vspace{0.2cm}
+
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf Boston University}\end{flushleft}
+    \begin{flushright}Sep. 2024 - Aug. 2025\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}Master of Applied Business Analytics\end{flushleft}
+  \end{multicols}
+  \vspace{-0.20cm}
+\end{large}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Relevant Courses}: Business Analytics, Operations Management,
+  Financial Concepts, Decision Making, Enterprise Risk Analytics,
+  Marketing Analytics, Database Management, Big Data Applications, Web
+  Design
+\end{itemize}
+
+\vspace{2pt}
+
+\begin{large}{\bf Internship Experience}
+  \vspace{3pt}
+  \hrule
+  \begin{multicols}{2}
+  \parbox{1.4\linewidth}{\bf Xin'an Chemical Group Co., Ltd.}
+    \begin{flushright}Jun. 2021 - Jul. 2021\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Project Manager Assistant}\end{flushleft}
+    \begin{flushright}  \end{flushright}\end
+  {multicols}
+\end{large}
+\vspace{-0.16cm}
+
+\begin{itemize}
+\tightlist
+\item
+  Assisted the IT and Process Innovation Department in developing a
+  digital marketing plan for new chemical products.
+\item
+  Conducted market research, feasibility analysis (market competition,
+  demand, etc.), and project positioning analysis.
+\item
+  Participated in team meetings and brainstorming sessions, assisted in
+  drafting proposal presentations, and provided actionable
+  recommendations.
+\item
+  Attended exchange meetings with Wanhua Chemical Group, documented
+  meeting minutes, and proposed suggestions for product innovation and
+  market competitiveness enhancement.
+\end{itemize}
+
+\vspace{7pt}
+
+\begin{large}
+  \begin{multicols}{2}
+    \parbox{1.4\linewidth}{\bf Shanghai Fuwai Brand Planning Co., Ltd.}
+    \begin{flushright}May 2022 - Jun. 2022\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Corporate Brand and Culture Consulting Intern}\end{flushleft}
+    \begin{flushright}  \end{flushright}\end
+  {multicols}
+\end{large}
+\vspace{-0.16cm}
+
+\begin{itemize}
+\tightlist
+\item
+  Analyzed corporate brand image and culture, including logos, slogans,
+  goals, visions, and corporate spirit.
+\item
+  Assisted in designing a digital transformation plan and cultural shift
+  for Guest Bank, based on its current status and culture.
+\item
+  Conducted research and analysis on the corporate culture of Jinsin
+  Company (a subsidiary of Yuntianhua Group) and proposed specific
+  improvements for its slogans, goals, and corporate spirit.
+\item
+  Researched the development trends of China's banking industry,
+  analyzed differences among representative banks, and proposed future
+  development directions.
+\end{itemize}
+
+\vspace{7pt}
+
+\begin{large}
+  \begin{multicols}{2}
+    \parbox{1.4\linewidth}{\bf Ernst & Young (China) Advisory Co., Ltd.}
+    \begin{flushright}Jun. 2022 - Jul. 2022\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Technology and Financial Consulting Intern}\end{flushleft}
+    \begin{flushright}  \end{flushright}\end
+  {multicols}
+\end{large}
+\vspace{-0.16cm}
+
+\begin{itemize}
+\tightlist
+\item
+  Participated in the SAP Phase III project for Xin'an Chemical Group as
+  part of the finance and technology teams.
+\item
+  Assisted the financial analysis team in researching, collecting, and
+  summarizing data related to procurement, logistics, pricing, sales,
+  and exports.
+\item
+  Supported the technology development team in building SAP and ERP
+  systems, contributing to the development of the CO (Controlling) and
+  SD (Sales and Distribution) modules.
+\item
+  Served as a key user for internal testing to ensure smooth system
+  operation post-launch.
+\end{itemize}
+
+\vspace{7pt}
+
+\begin{large}
+  \begin{multicols}{2}
+    \parbox{1.4\linewidth}{\bf Hangzhou City Brain Technology and Service Co., Ltd.}
+    \begin{flushright}Jul. 2022 - Aug. 2022\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Big Data Development Intern}\end{flushleft}
+    \begin{flushright}  \end{flushright}\end
+  {multicols}
+\end{large}
+\vspace{-0.16cm}
+
+\begin{itemize}
+\tightlist
+\item
+  Learned operations related to the MaxCompute (ODPS) big data
+  development platform.
+\item
+  Acquired knowledge of commonly used big data software and its
+  significance in development.
+\item
+  Assisted in data governance for multiple projects based on specific
+  requirements.
+\item
+  Learned about building data warehouses, collecting and organizing
+  data, and providing data models to support departmental queries and
+  development needs.
+\end{itemize}
+
+\vspace{7pt}
+
+\begin{large}{\bf Publications}
+  \vspace{3pt}
+  \hrule
+  \begin{multicols}{2}
+  \parbox{1.6\linewidth}{\bf Paper: Exploring Correlations Between Economic Indicators with Natural and Societal Factors Based on Linear Regression Model}
+    \begin{flushright}Published Jan., 2024\end{flushright}
+  \end{multicols}
+\end{large}
+\vspace{-0.16cm}
+
+\textbf{Description}: Utilized ``Global Country Information Dataset
+2023'' to address the limitations of single-factor studies on economic
+development drivers. Employed Pearson correlation coefficients to screen
+key variables (e.g., land area, military size, carbon emissions) and
+constructed a multi-factor collaborative impact analysis framework using
+OLS and FMOLS linear regression models. Quantified the integrated
+effects of natural and social factors on national economic development
+and validated the model's predictive performance using machine learning
+training-test set methods. Published during studies at the University of
+Toronto, providing a data-driven reference for macroeconomic
+policy-making.
+
+\vspace{7pt}
+
+\begin{large}{\bf Skills}
+  \vspace{3pt}
+  \hrule
+\end{large}
+
+\textbf{Technical Skills}: Microsoft Office, Python, Java, SQL, C, R
+\textbf{Language Skills}: Mandarin, English, Japenese (High to low
+proficiency)
+
+\begin{large}{\bf Self-Evaluation}
+  \vspace{3pt}
+  \hrule
+\end{large}
+
+\begin{itemize}
+\tightlist
+\item
+  Highly motivated with a strong sense of responsibility and attention
+  to detail.
+\item
+  Excellent analytical skills and logical thinking, proficient in office
+  software.
+\item
+  Strong team player with effective communication skills, capable of
+  identifying and solving problems.
+\item
+  Quick learner, adaptable to new knowledge and challenges, and eager to
+  take on new tasks.
+\end{itemize}
+
+
+
+
+\end{document}

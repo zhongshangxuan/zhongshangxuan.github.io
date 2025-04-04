@@ -1,21 +1,22 @@
 project:
   type: website
+  output-dir: web_output
 
 website:
-  title: "zhongshangxuan"
+  title: "Shangxuan Zhong"
+
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
-
-format:
-  html:
-    theme:
-      - cosmo
-      - brand
-    css: styles.css
-    toc: true
+      - text: Home
+        href: index.qmd
+      - text: About Me
+        href: about.qmd
+      - text: Projects
+        href: projects.qmd
+      - text: CV
+        href: cv.qmd
+      - text: Contact
+        href: contact.qmd
 
 
 

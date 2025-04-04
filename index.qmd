@@ -1,9 +1,24 @@
-
 ---
-title: "zhongshangxuan"
+title: "Shangxuan Zhong"
+about:
+  template: jolla
+  image: "images/myphoto.jpg"
+  image-width: 10em
+  image-shape: round
+  links:
+    - icon: envelope
+      text: Personal Email    
+      href: zhongshangxuan@gamil.com
+    - icon: github
+      text: Github
+      href: https://github.com/zhongshangxuan
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    css: style.css
 ---
+&nbsp;&nbsp; Phone: +86-17740940442 &nbsp;&nbsp; +1-(617)903-2034
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-![](./images/The%20Herta.jpg){fig-align="center"}
+&nbsp;&nbsp; Email: zhongsx@bu.edu (school) &nbsp;&nbsp; zhongshangxuan@gmail.com (personal)

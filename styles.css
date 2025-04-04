@@ -1,1 +1,35 @@
-/* css styles */
+/* title style */
+.title {
+    background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.3))
+    url("images/title_background.jpg"); 
+    background-size: cover; 
+    background-position: center;
+    color: #FFFFFF; 
+    font-size: 40px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+/* background effect*/
+body {
+    background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.3))
+    url("images/background.jpg"); 
+    height: 100vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+
+/* Keyframe fadein effect */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }

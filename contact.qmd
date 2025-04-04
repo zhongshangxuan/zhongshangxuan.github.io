@@ -1,0 +1,77 @@
+---
+title: Contact Me
+format:
+  html:
+    theme: cosmo
+    toc: true
+    css: styles.css
+---
+
+# 📬 Contact with E-mail/Github
+
+If there is anything you would like to know about me, feel free to contact me via the contact form below.
+
+- 📧 Email: [zhongshangxuan@gmail.com](mailto:zhongshangxuan@gmail.com)   
+- 💻 GitHub: [https://github.com/zhongshangxuan](https://github.com/zhongshangxuan)
+
+---
+
+# 📩 Directly Send Me a Message
+
+<form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+  <input type="hidden" name="form-name" value="contact" />
+
+  <p hidden>
+    <label>Don’t fill this out: <input name="bot-field" /></label>
+  </p>
+
+  <label for="name">Name</label><br>
+  <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
+
+  <label for="email">Email</label><br>
+  <input type="email" id="email" name="email" placeholder="Your Email" required><br><br>
+
+  <label for="message">Message</label><br>
+  <textarea id="message" name="message" rows="5" placeholder="Your Message" required>
+  </textarea><br><br>
+
+  <button type="submit">Send</button>
+</form>
+
+<style>
+  form {
+    max-width: 600px;         
+    margin: 0 auto;            
+    font-family: Arial, sans-serif;
+  }
+
+  label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  input, textarea {
+    width: 100%;               
+    padding: 10px;              
+    font-size: 20px;            
+    border: 1px solid #ccc;     
+    border-radius: 10px;         
+    box-sizing: border-box;     
+    margin-bottom: 20px;       
+  }
+
+  button {
+    background-color: #66CCFF;  
+    color: #ffffff;               
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;                
+  }
+
+  button:hover {background-color: #00ff00;}
+</style>

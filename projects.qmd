@@ -1,0 +1,34 @@
+---
+title: Project
+date-modified: today
+date-format: long
+format:
+  html:
+    theme: cosmo
+    toc: true
+    css: styles.css
+---
+
+## Business Running Case: Evaluating Personal Job Market Prospects in 2024 
+(A Data-Driven Career Analysis Using Lightcast, GitHub, and Quarto Pages)
+### **Topic**: Salary & Compensation Trends
+**Focus on**
+* How do salaries differ across AI vs. non-AI careers?
+* What regions offer the highest-paying jobs in AI-related and traditional careers?
+* Are remote jobs better paying than in-office roles?
+* What industries saw the biggest wage growth in 2024?
+
+### Expected Findings
+Through this research, we anticipate identifying key patterns in data science salaries, such as:
+
+* An increase in salaries for AI and machine learning specialists due to growing demand.
+* Potential stagnation or decline in entry-level data science salaries due to an influx of new professionals entering the field.
+* A widening salary gap between regions due to remote work policies and cost-of-living differences.
+* Industry-specific salary trends, where certain sectors may offer higher compensation based on their reliance on data-driven insights.
+
+**Repository**: [GitHub](https://github.com/CYXNBNBNB/ad688-employability-sp25A1-group6)
+
+<pre>                  </pre>
+
+**Website**: [Visit Website](https://cyxnbnbnb.github.io/ad688-employability-sp25A1-group6/)
+

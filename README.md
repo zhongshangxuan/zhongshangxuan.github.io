@@ -1,2 +1,2 @@
 # zhongshangxuan-github.io
-This is my public portfolio
+This is my personal website. https://zhongshangxuan-github.io

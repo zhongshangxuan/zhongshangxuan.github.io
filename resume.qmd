@@ -1,0 +1,182 @@
+---
+format: 
+  pdf: 
+    documentclass: article
+    geometry:
+      - top=10mm
+      - left=15mm
+      - right=15mm
+      - bottom=5mm
+      - heightrounded
+    fontfamily: libertine
+    colorlinks: true
+    fontsize: '16'
+    include-in-header: 
+      text: |
+        \usepackage{multicol}
+        \usepackage{lipsum}
+        \usepackage{hyperref}
+        \usepackage{libertine}
+        \pagestyle{empty}
+        \setlength{\multicolsep}{2pt plus 1.0pt minus 0.75pt}% 50% of original values
+        \setlength{\columnsep}{3em}
+---
+<!-- Title -->
+\begin{huge}\begin{center}{\bf Shangxuan Zhong}\end{center}\end{huge}
+
+<!-- Contact Info -->
+\begin{center}Email: zhongsx@bu.edu , zhongshangxuan@gmail.com \\
+Phone: +1 6179032034 , +86 17740940442 \\
+Address:  525 Lincoln St., Apt 309, Boston, MA \\
+\end{center}
+\vspace{15pt}
+
+<!-- Education 1 -->
+\begin{large}
+  {\bf Education}
+  \vspace{3pt}
+  \hrule
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf University of Toronto}\end{flushleft}
+    \begin{flushright}Sep. 2020 - Jun. 2024\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}Bachelor of Mathematics, Statistics, Computer Science\end{flushleft}
+  \end{multicols}
+  \vspace{-0.20cm}
+\end{large}
+* **Relevant Courses**: Linear Algebra, Advanced Algebra, Ordinary Differential Equations, Probability Theory, Partial Differential Equation, Advanced Calculus, Software Design, Financial Principles, Actuarial Science, Complex Variables, Computer Organization, Time Series Analysis, Machine Learning, Big Data Analytics
+
+\vspace{0.2cm}
+
+<!-- Education 2 -->
+\begin{large}
+  \begin{multicols}{2}
+    \begin{flushleft}{\bf Boston University}\end{flushleft}
+    \begin{flushright}Sep. 2024 - Aug. 2025\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}Master of Applied Business Analytics\end{flushleft}
+  \end{multicols}
+  \vspace{-0.20cm}
+\end{large}
+
+* **Relevant Courses**: Business Analytics, Operations Management, Financial Concepts, Decision Making, Enterprise Risk Analytics, Marketing Analytics, Database Management, Big Data Applications, Web Design 
+
+\vspace{2pt}
+
+<!-- Internship 1-->
+\begin{large}{\bf Internship Experience}
+  \vspace{3pt}
+  \hrule
+  \begin{multicols}{2}
+  \parbox{1.4\linewidth}{\bf Xin'an Chemical Group Co., Ltd.}
+    \begin{flushright}Jun. 2021 - Jul. 2021\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Project Manager Assistant}\end{flushleft}
+    \begin{flushright}  \end{flushright}\end
+  {multicols}
+\end{large}
+\vspace{-0.16cm}
+* Assisted the IT and Process Innovation Department in developing a digital marketing plan for new chemical products.
+* Conducted market research, feasibility analysis (market competition, demand, etc.), and project positioning analysis.
+* Participated in team meetings and brainstorming sessions, assisted in drafting proposal presentations, and provided actionable recommendations.
+* Attended exchange meetings with Wanhua Chemical Group, documented meeting minutes, and proposed suggestions for product innovation and market competitiveness enhancement.
+
+\vspace{7pt}
+
+<!-- Internship 2 -->
+\begin{large}
+  \begin{multicols}{2}
+    \parbox{1.4\linewidth}{\bf Shanghai Fuwai Brand Planning Co., Ltd.}
+    \begin{flushright}May 2022 - Jun. 2022\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Corporate Brand and Culture Consulting Intern}\end{flushleft}
+    \begin{flushright}  \end{flushright}\end
+  {multicols}
+\end{large}
+\vspace{-0.16cm}
+* Analyzed corporate brand image and culture, including logos, slogans, goals, visions, and corporate spirit.
+* Assisted in designing a digital transformation plan and cultural shift for Guest Bank, based on its current status and culture.
+* Conducted research and analysis on the corporate culture of Jinsin Company (a subsidiary of Yuntianhua Group) and proposed specific improvements for its slogans, goals, and corporate spirit.
+* Researched the development trends of China's banking industry, analyzed differences among representative banks, and proposed future development directions.
+
+\vspace{7pt}
+
+<!-- Internship 3 -->
+\begin{large}
+  \begin{multicols}{2}
+    \parbox{1.4\linewidth}{\bf Ernst & Young (China) Advisory Co., Ltd.}
+    \begin{flushright}Jun. 2022 - Jul. 2022\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Technology and Financial Consulting Intern}\end{flushleft}
+    \begin{flushright}  \end{flushright}\end
+  {multicols}
+\end{large}
+\vspace{-0.16cm}
+* Participated in the SAP Phase III project for Xin'an Chemical Group as part of the finance and technology teams.
+* Assisted the financial analysis team in researching, collecting, and summarizing data related to procurement, logistics, pricing, sales, and exports.
+* Supported the technology development team in building SAP and ERP systems, contributing to the development of the CO (Controlling) and SD (Sales and Distribution) modules.
+* Served as a key user for internal testing to ensure smooth system operation post-launch.
+
+\vspace{7pt}
+
+<!-- Internship 4 -->
+\begin{large}
+  \begin{multicols}{2}
+    \parbox{1.4\linewidth}{\bf Hangzhou City Brain Technology and Service Co., Ltd.}
+    \begin{flushright}Jul. 2022 - Aug. 2022\end{flushright}
+  \end{multicols}
+  \vspace{-0.17cm}
+  \begin{multicols}{2}
+    \begin{flushleft}\textit{Big Data Development Intern}\end{flushleft}
+    \begin{flushright}  \end{flushright}\end
+  {multicols}
+\end{large}
+\vspace{-0.16cm}
+* Learned operations related to the MaxCompute (ODPS) big data development platform.
+* Acquired knowledge of commonly used big data software and its significance in development.
+* Assisted in data governance for multiple projects based on specific requirements.
+* Learned about building data warehouses, collecting and organizing data, and providing data models to support departmental queries and development needs.
+
+\vspace{7pt}
+
+<!-- Publications -->
+\begin{large}{\bf Publications}
+  \vspace{3pt}
+  \hrule
+  \begin{multicols}{2}
+  \parbox{1.6\linewidth}{\bf Paper: Exploring Correlations Between Economic Indicators with Natural and Societal Factors Based on Linear Regression Model}
+    \begin{flushright}Published Jan., 2024\end{flushright}
+  \end{multicols}
+\end{large}
+\vspace{-0.16cm}
+**Description**: Utilized "Global Country Information Dataset 2023" to address the limitations of single-factor studies on economic development drivers. Employed Pearson correlation coefficients to screen key variables (e.g., land area, military size, carbon emissions) and constructed a multi-factor collaborative impact analysis framework using OLS and FMOLS linear regression models. Quantified the integrated effects of natural and social factors on national economic development and validated the model's predictive performance using machine learning training-test set methods. Published during studies at the University of Toronto, providing a data-driven reference for macroeconomic policy-making.
+
+\vspace{7pt}
+
+<!-- Skills -->
+\begin{large}{\bf Skills}
+  \vspace{3pt}
+  \hrule
+\end{large}
+**Technical Skills**: Microsoft Office, Python, Java, SQL, C, R
+**Language Skills**: Mandarin, English, Japenese (High to low proficiency)
+
+<!-- Self-Evaluation -->
+\begin{large}{\bf Self-Evaluation}
+  \vspace{3pt}
+  \hrule
+\end{large}
+* Highly motivated with a strong sense of responsibility and attention to detail.
+* Excellent analytical skills and logical thinking, proficient in office software.
+* Strong team player with effective communication skills, capable of identifying and solving problems.
+* Quick learner, adaptable to new knowledge and challenges, and eager to take on new tasks.

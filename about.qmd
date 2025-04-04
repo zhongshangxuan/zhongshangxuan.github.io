@@ -1,5 +1,83 @@
 ---
-title: "About"
+title: About Me
+date-modified: today
+date-format: long
+format:
+  html:
+    theme: cosmo
+    toc: true
+    css: styles.css
 ---
 
-About this site
+## Shangxuan Zhong
+<hr style="height:3px; border:none">
+
+Phone: +86-17740940442 &emsp;&emsp; +1-(617)903-2034 <br>
+Email: zhongsx@bu.edu (school) &emsp;&emsp; zhongshangxuan@gmail.com (personal) <br>
+
+## Education
+<hr style="height:3px; border:none">
+
+**University of Toronto**  (September,2020 - June,2024)<br>
+**Bachelor of Mathematics, Statistics, Computer Science**<br>
+**Relevant Courses:** Linear Algebra, Advanced Algebra, Ordinary Differential Equations, Probability Theory, Partial Differential Equation, Advanced Calculus, Software Design, Financial Principles, Actuarial Science, Complex Variables, Computer Organization, Time Series Analysis, Machine Learning, Big Data Analytics
+
+**Boston University** (September,2024 - August,2025)<br>
+**Master of Applied Business Analytics**<br>
+**Relevant Courses**: Business Analytics, Operations Management, Financial Concepts, Decision Making, Enterprise Risk Analytics, Marketing Analytics, Database Management, Big Data Applications, Web Design 
+
+## Internship Experience
+<hr style="height:3px; border:none">
+
+**Xin'an Chemical Group Co., Ltd.** (June,2021 - July,2021)<br>
+**Title: Project Manager Assistant**<br>
+
+* Assisted the IT and Process Innovation Department in developing a digital marketing plan for new chemical products.
+* Conducted market research, feasibility analysis (market competition, demand, etc.), and project positioning analysis.
+* Participated in team meetings and brainstorming sessions, assisted in drafting proposal presentations, and provided actionable recommendations.
+* Attended exchange meetings with Wanhua Chemical Group, documented meeting minutes, and proposed suggestions for product innovation and market competitiveness enhancement.
+
+**Shanghai Fuwai Brand Planning Co., Ltd.** (May,2022 - June,2022)<br>
+**Title: Corporate Brand and Culture Consulting Intern**<br>
+
+* Analyzed corporate brand image and culture, including logos, slogans, goals, visions, and corporate spirit.
+* Assisted in designing a digital transformation plan and cultural shift for Guest Bank, based on its current status and culture.
+* Conducted research and analysis on the corporate culture of Jinsin Company (a subsidiary of Yuntianhua Group) and proposed specific improvements for its slogans, goals, and corporate spirit.
+* Researched the development trends of China's banking industry, analyzed differences among representative banks, and proposed future development directions.
+
+**Ernst & Young (China) Advisory Co., Ltd.** (June,2022 - July,2022)<br>
+**Title: Technology and Financial Consulting Intern**<br>
+
+* Participated in the SAP Phase III project for Xin'an Chemical Group as part of the finance and technology teams.
+* Assisted the financial analysis team in researching, collecting, and summarizing data related to procurement, logistics, pricing, sales, and exports.
+* Supported the technology development team in building SAP and ERP systems, contributing to the development of the CO (Controlling) and SD (Sales and Distribution) modules.
+* Served as a key user for internal testing to ensure smooth system operation post-launch.
+
+**Hangzhou City Brain Technology and Service Co., Ltd.** (July,2022 - August,2022)<br>
+**Title: Big Data Development Intern**<br>
+
+* Learned operations related to the MaxCompute (ODPS) big data development platform.
+* Acquired knowledge of commonly used big data software and its significance in development.
+* Assisted in data governance for multiple projects based on specific requirements.
+* Learned about building data warehouses, collecting and organizing data, and providing data models to support departmental queries and development needs.
+
+## Publications
+<hr style="height:3px; border:none">
+
+**Paper: Exploring Correlations Between Economic Indicators with Natural and Societal Factors Based on Linear Regression Model** (Published January,2024)
+
+**Description**: Utilized "Global Country Information Dataset 2023" to address the limitations of single-factor studies on economic development drivers. Employed Pearson correlation coefficients to screen key variables (e.g., land area, military size, carbon emissions) and constructed a multi-factor collaborative impact analysis framework using OLS and FMOLS linear regression models. Quantified the integrated effects of natural and social factors on national economic development and validated the model's predictive performance using machine learning training-test set methods. Published during studies at the University of Toronto, providing a data-driven reference for macroeconomic policy-making.
+
+## Skills
+<hr style="height:3px; border:none">
+
+**Technical Skills**: Microsoft Office, Python, Java, SQL, C, R
+**Language Skills**: Mandarin, English, Japenese (High to low proficiency)
+
+## Self-Evaluation
+<hr style="height:3px; border:none">
+
+* Highly motivated with a strong sense of responsibility and attention to detail.
+* Excellent analytical skills and logical thinking, proficient in office software.
+* Strong team player with effective communication skills, capable of identifying and solving problems.
+* Quick learner, adaptable to new knowledge and challenges, and eager to take on new tasks.
